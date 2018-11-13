@@ -1,0 +1,54 @@
+Arguments: 
+  /nix/store/pb2dgi890fwk5nb7n913afx1d1lqhmph-nodejs-8.12.0/bin/node /Users/brentvatne/.nix-profile/bin/yarn
+
+PATH: 
+  /Users/brentvatne/flutter/sdk/bin:/Users/brentvatne/.local/bin:/Users/brentvatne/.nvm/versions/node/v9.2.0/bin/:/Users/brentvatne/.opam/4.02.3/bin:/Users/brentvatne/.nvm/versions/node/v10.9.0/bin:/Users/brentvatne/.opam/4.02.3/bin:/Users/brentvatne/.cargo/bin:/Users/brentvatne/.rvm/gems/ruby-2.3.1/bin:/Users/brentvatne/.rvm/gems/ruby-2.3.1@global/bin:/Users/brentvatne/.rvm/rubies/ruby-2.3.1/bin:/Users/brentvatne/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/brentvatne/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/brentvatne/Library/Android/sdk/tools:/Users/brentvatne/Library/Android/sdk/platform-tools:/Users/brentvatne/.cargo/bin:/Users/brentvatne/.rvm/bin:/opt/yarn-1.3.2/bin:/opt/yarn-1.6.0/bin:/usr/local/bin:/Users/brentvatne/go/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-31-sdk-31-with-hooks-dangerzone.tar.gz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (/nix/store/0ajpvy42xfmdl5spsdnp8zhwc7xyryq6-yarn-1.10.1/libexec/yarn/lib/cli.js:218:66)
+      at new ResponseError (/nix/store/0ajpvy42xfmdl5spsdnp8zhwc7xyryq6-yarn-1.10.1/libexec/yarn/lib/cli.js:324:124)
+      at Request.<anonymous> (/nix/store/0ajpvy42xfmdl5spsdnp8zhwc7xyryq6-yarn-1.10.1/libexec/yarn/lib/cli.js:57838:26)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at Request.module.exports.Request.onRequestResponse (/nix/store/0ajpvy42xfmdl5spsdnp8zhwc7xyryq6-yarn-1.10.1/libexec/yarn/lib/cli.js:121043:10)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:544:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+
+npm manifest: 
+  {
+    "name": "empty-project-template",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^31.0.2",
+      "react": "16.7.0-alpha.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31-sdk-31-with-hooks-dangerzone.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
